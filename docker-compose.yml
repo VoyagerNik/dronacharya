@@ -1,0 +1,9 @@
+services:
+  image_processor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/data
+    environment:
+      - SOME_ENV_VAR=value

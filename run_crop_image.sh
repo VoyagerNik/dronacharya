@@ -1,5 +1,5 @@
 #!/bin/bash
 # Activate the virtual environment
-source /home/user/dproj/.venv/bin/activate
+source $HOME/dproj/.venv/drone/bin/activate
 # Run the Python script
-python /home/user/dproj/live2.py
+python $HOME/dproj/live2.py
