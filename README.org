@@ -1,0 +1,9 @@
+#+TITLE: Autonomous Drones DA
+#+AUTHORS: insert names here
+
+* Execution
+#+BEGIN_SRC shell
+docker system prune -af
+docker compose down
+docker compose up
+#+END_SRC
