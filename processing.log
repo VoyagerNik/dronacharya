@@ -1,34 +1,32 @@
-2025-04-03 09:50:37,923 - INFO - Waiting for GStreamer pipeline to initialize...
-2025-04-03 09:50:42,930 - INFO - Processing image: /home/user/dproj/ip/image6.jpg
-2025-04-03 09:50:43,932 - INFO - Processing image: /home/user/dproj/ip/image6.jpg
-2025-04-03 09:50:45,327 - INFO - Saved cropped image: /home/user/dproj/op/cropped.jpg
-2025-04-03 09:50:45,340 - ERROR - Error processing image /home/user/dproj/ip/image6.jpg: No module named 'paddle'
-2025-04-03 09:50:47,345 - INFO - Processing image: /home/user/dproj/ip/image8.jpg
-2025-04-03 09:50:48,348 - INFO - Processing image: /home/user/dproj/ip/image8.jpg
-2025-04-03 09:50:49,412 - INFO - Saved cropped image: /home/user/dproj/op/cropped.jpg
-2025-04-03 09:50:49,416 - ERROR - Error processing image /home/user/dproj/ip/image8.jpg: No module named 'paddle'
-2025-04-03 09:50:51,420 - INFO - Processing image: /home/user/dproj/ip/image9.jpg
-2025-04-03 09:50:52,424 - INFO - Processing image: /home/user/dproj/ip/image9.jpg
-2025-04-03 09:50:53,671 - WARNING - No valid container ID detected.
-2025-04-03 09:54:29,292 - INFO - Waiting for GStreamer pipeline to initialize...
-2025-04-03 09:54:34,307 - INFO - Processing image: /home/user/dproj/ip/image6.jpg
-2025-04-03 09:54:35,310 - INFO - Processing image: /home/user/dproj/ip/image6.jpg
-2025-04-03 09:54:36,405 - INFO - Saved cropped image: /home/user/dproj/op/cropped.jpg
-2025-04-03 09:54:36,654 - ERROR - Error processing image /home/user/dproj/ip/image6.jpg: name 'libpaddle' is not defined
-2025-04-03 09:54:38,661 - INFO - Processing image: /home/user/dproj/ip/image8.jpg
-2025-04-03 09:54:39,666 - INFO - Processing image: /home/user/dproj/ip/image8.jpg
-2025-04-03 09:54:40,744 - INFO - Saved cropped image: /home/user/dproj/op/cropped.jpg
-2025-04-03 09:54:40,817 - ERROR - Error processing image /home/user/dproj/ip/image8.jpg: name 'libpaddle' is not defined
-2025-04-03 09:54:42,824 - INFO - Processing image: /home/user/dproj/ip/image9.jpg
-2025-04-03 09:54:43,826 - INFO - Processing image: /home/user/dproj/ip/image9.jpg
-2025-04-03 09:54:44,897 - WARNING - No valid container ID detected.
-2025-04-03 09:55:05,000 - INFO - Waiting for GStreamer pipeline to initialize...
-2025-04-03 09:55:10,003 - INFO - Processing image: /home/user/dproj/ip/image6.jpg
-2025-04-03 09:55:11,005 - INFO - Processing image: /home/user/dproj/ip/image6.jpg
-2025-04-03 09:55:12,203 - INFO - Saved cropped image: /home/user/dproj/op/cropped.jpg
-2025-04-03 09:55:12,210 - ERROR - Error processing image /home/user/dproj/ip/image6.jpg: No module named 'paddle'
-2025-04-03 09:55:14,213 - INFO - Processing image: /home/user/dproj/ip/image8.jpg
-2025-04-03 09:55:15,215 - INFO - Processing image: /home/user/dproj/ip/image8.jpg
-2025-04-03 09:55:16,666 - INFO - Saved cropped image: /home/user/dproj/op/cropped.jpg
-2025-04-03 09:55:16,670 - ERROR - Error processing image /home/user/dproj/ip/image8.jpg: No module named 'paddle'
-2025-04-03 09:55:18,674 - INFO - Processing image: /home/user/dproj/ip/image9.jpg
+2025-04-03 16:06:10,894 - INFO - Waiting for GStreamer pipeline to initialize...
+2025-04-03 16:06:15,897 - INFO - Processing image: /app/ip/image6.jpg
+2025-04-03 16:06:16,898 - INFO - Processing image: /app/ip/image6.jpg
+2025-04-03 16:06:17,054 - INFO - Saved cropped image: /app/op/cropped.jpg
+2025-04-03 16:06:38,075 - INFO - Waiting for GStreamer pipeline to initialize...
+2025-04-03 16:06:43,082 - INFO - Processing image: /app/ip/image6.jpg
+2025-04-03 16:06:44,083 - INFO - Processing image: /app/ip/image6.jpg
+2025-04-03 16:06:44,276 - INFO - Saved cropped image: /app/op/cropped.jpg
+2025-04-03 16:06:46,364 - DEBUG - Starting new HTTPS connection (1): paddleocr.bj.bcebos.com:443
+2025-04-03 16:06:47,941 - DEBUG - https://paddleocr.bj.bcebos.com:443 "GET /PP-OCRv4/chinese/ch_PP-OCRv4_det_infer.tar HTTP/11" 200 4894720
+2025-04-03 16:09:11,974 - INFO - Waiting for GStreamer pipeline to initialize...
+2025-04-03 16:09:16,981 - INFO - Processing image: /app/ip/image6.jpg
+2025-04-03 16:09:17,982 - INFO - Processing image: /app/ip/image6.jpg
+2025-04-03 16:09:18,176 - INFO - Saved cropped image: /app/op/cropped.jpg
+2025-04-03 16:09:20,297 - DEBUG - Starting new HTTPS connection (1): paddleocr.bj.bcebos.com:443
+2025-04-03 16:09:21,870 - DEBUG - https://paddleocr.bj.bcebos.com:443 "GET /PP-OCRv4/chinese/ch_PP-OCRv4_det_infer.tar HTTP/11" 200 4894720
+2025-04-03 16:09:39,938 - DEBUG - Starting new HTTPS connection (1): paddleocr.bj.bcebos.com:443
+2025-04-03 16:09:41,734 - DEBUG - https://paddleocr.bj.bcebos.com:443 "GET /PP-OCRv4/chinese/ch_PP-OCRv4_rec_infer.tar HTTP/11" 200 10977280
+2025-04-03 16:10:02,099 - DEBUG - Starting new HTTPS connection (1): paddleocr.bj.bcebos.com:443
+2025-04-03 16:10:04,079 - DEBUG - https://paddleocr.bj.bcebos.com:443 "GET /dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar HTTP/11" 200 2188800
+2025-04-03 16:11:20,671 - INFO - Waiting for GStreamer pipeline to initialize...
+2025-04-03 16:11:25,677 - INFO - Processing image: /app/ip/image6.jpg
+2025-04-03 16:13:34,011 - INFO - Waiting for GStreamer pipeline to initialize...
+2025-04-03 16:13:39,017 - INFO - Processing image: /app/ip/image6.jpg
+2025-04-03 16:13:40,018 - INFO - Processing image: /app/ip/image6.jpg
+2025-04-03 16:13:40,178 - INFO - Saved cropped image: /app/op/cropped.jpg
+2025-04-03 16:13:42,212 - DEBUG - Starting new HTTPS connection (1): paddleocr.bj.bcebos.com:443
+2025-04-03 16:13:43,785 - DEBUG - https://paddleocr.bj.bcebos.com:443 "GET /PP-OCRv4/chinese/ch_PP-OCRv4_det_infer.tar HTTP/11" 200 4894720
+2025-04-03 16:14:00,580 - DEBUG - Starting new HTTPS connection (1): paddleocr.bj.bcebos.com:443
+2025-04-03 16:14:02,860 - DEBUG - https://paddleocr.bj.bcebos.com:443 "GET /PP-OCRv4/chinese/ch_PP-OCRv4_rec_infer.tar HTTP/11" 200 10977280
+2025-04-03 16:14:21,087 - DEBUG - Starting new HTTPS connection (1): paddleocr.bj.bcebos.com:443
+2025-04-03 16:14:22,680 - DEBUG - https://paddleocr.bj.bcebos.com:443 "GET /dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar HTTP/11" 200 2188800

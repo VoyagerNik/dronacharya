@@ -3,15 +3,16 @@ import numpy as np
 import onnxruntime
 import os
 
+HOME="/app" # /home/user/dproj
 # Load the ONNX model
-onnx_model_path = "/home/user/dproj/best.onnx"
+onnx_model_path = f"{HOME}best.onnx"
 session = onnxruntime.InferenceSession(onnx_model_path)
 
 # Input image
-image_path = "/home/user/dproj/ip/image8.jpg"
+image_path = f"{HOME}ip/image8.jpg"
 
 # Output folder
-output_folder = "/home/user/dproj/op"
+output_folder = f"{HOME}op"
 os.makedirs(output_folder, exist_ok=True)
 
 # Read image

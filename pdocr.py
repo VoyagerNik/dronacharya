@@ -2,12 +2,13 @@ import cv2
 import numpy as np
 import onnxruntime as ort
 from paddleocr import PaddleOCR
+HOME="/app" # /home/user/dproj
 
 # Paths
 def ocrr():
-    det_model_path = "/home/user/dproj/det_model.onnx"
-    rec_model_path = "/home/user/dproj/rec_model.onnx"
-    image_path = "/home/user/dproj/op/cropped.jpg"  # Change this to your image path
+    det_model_path = "/app/det_model.onnx"
+    rec_model_path = "/app/rec_model.onnx"
+    image_path = "/app/op/cropped.jpg"  # Change this to your image path
 
     # Load PaddleOCR with custom ONNX models
     ocr = PaddleOCR(det_model_path=det_model_path, rec_model_path=rec_model_path, use_angle_cls=True, use_gpu=False)
@@ -24,7 +25,7 @@ def ocrr():
     first_10_chars = full_text[:10]  # Take only first 10 characters
     rearranged=first_10_chars
     #rearranged= first_10_chars[-4:] + first_10_chars[:-4]
-    with open("/home/user/dproj/outuput.txt", "a") as file:
+    with open("/app/outuput.txt", "a") as file:
         file.write(rearranged + "\n") 
 
     # Print and Save

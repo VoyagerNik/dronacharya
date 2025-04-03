@@ -3,15 +3,16 @@ import numpy as np
 import onnxruntime
 import os
 import time
+c
  # Import the OCR function
 
 # Load the ONNX model
-onnx_model_path = "/home/user/dproj/best.onnx"
+onnx_model_path = f"{HOME}/best.onnx"
 session = onnxruntime.InferenceSession(onnx_model_path)
 
 # Input and output folders
-input_folder = "/home/user/dproj/ip2"  # Folder where images are saved by GStreamer
-output_folder = "/home/user/dproj/op"
+input_folder = f"{HOME}/ip2"  # Folder where images are saved by GStreamer
+output_folder = f"{HOME}/op"
 os.makedirs(output_folder, exist_ok=True)
 
 # Function to process a single image

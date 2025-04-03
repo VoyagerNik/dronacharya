@@ -6,17 +6,18 @@ import time
 import logging
   # Import the OCR function
 
+HOME="/app" # /home/user/dproj
 # Load the ONNX model
-onnx_model_path = "/home/user/dproj/best.onnx"
+onnx_model_path = f"{HOME}/best.onnx"
 session = onnxruntime.InferenceSession(onnx_model_path)
 
 # Input and output folders
-input_folder = "/home/user/dproj/ip"  # Folder where images are saved by GStreamer
-output_folder = "/home/user/dproj/op"
+input_folder = f"{HOME}/ip"  # Folder where images are saved by GStreamer
+output_folder = f"{HOME}/op"
 os.makedirs(output_folder, exist_ok=True)
 
 # Set up logging
-logging.basicConfig(filename='/home/user/dproj/processing.log', level=logging.DEBUG, 
+logging.basicConfig(filename=f'{HOME}/processing.log', level=logging.DEBUG, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Function to process a single image
