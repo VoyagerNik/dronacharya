@@ -12,7 +12,7 @@ onnx_model_path = HOME+"/best.onnx"
 session = onnxruntime.InferenceSession(onnx_model_path)
 
 # Input and output folders
-input_folder = HOME+"/ip"  # Folder where images are saved by GStreamer
+input_folder = HOME+"/ip2"  # Folder where images are saved by GStreamer
 output_folder = HOME+"/op"
 os.makedirs(output_folder, exist_ok=True)
 
@@ -101,8 +101,7 @@ def main_loop():
     # Wait for the GStreamer pipeline to initialize
     logging.info("Waiting for GStreamer pipeline to initialize...")
     time.sleep(5)  # Adjust the delay as needed
-    i=0
-    while i<5:
+    while True:
         # List all files in the input folder
         image_files = [f for f in os.listdir(input_folder) if f.endswith(".jpg")]
         image_files=sorted(image_files)
