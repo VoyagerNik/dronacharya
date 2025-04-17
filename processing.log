@@ -36,3 +36,9 @@
 2025-04-03 16:50:53,276 - INFO - Saved cropped image: /app/op/cropped.jpg
 2025-04-03 16:50:55,494 - DEBUG - Starting new HTTPS connection (1): paddleocr.bj.bcebos.com:443
 2025-04-03 16:50:57,043 - DEBUG - https://paddleocr.bj.bcebos.com:443 "GET /PP-OCRv4/chinese/ch_PP-OCRv4_det_infer.tar HTTP/11" 200 4894720
+2025-04-17 05:05:08,246 - INFO - Waiting for GStreamer pipeline to initialize...
+2025-04-17 05:05:13,253 - INFO - Processing image: /app/ip/image6.jpg
+2025-04-17 05:05:14,254 - INFO - Processing image: /app/ip/image6.jpg
+2025-04-17 05:05:14,415 - INFO - Saved cropped image: /app/op/cropped.jpg
+2025-04-17 05:05:16,458 - DEBUG - Starting new HTTPS connection (1): paddleocr.bj.bcebos.com:443
+2025-04-17 05:05:17,848 - DEBUG - https://paddleocr.bj.bcebos.com:443 "GET /PP-OCRv4/chinese/ch_PP-OCRv4_det_infer.tar HTTP/11" 200 4894720
