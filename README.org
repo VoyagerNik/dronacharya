@@ -3,7 +3,7 @@
 
 * Execution
 #+BEGIN_SRC shell
-docker system prune -af
-docker compose down
-docker compose up
-#+END_SRC
+docker build .
+docker tag <container id> droj
+docker run --rm -it dproj
+#END_SRC

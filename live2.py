@@ -8,12 +8,12 @@ import logging
 
 HOME="/app" # /home/user/dproj
 # Load the ONNX model
-onnx_model_path = f"{HOME}/best.onnx"
+onnx_model_path = HOME+"/best.onnx"
 session = onnxruntime.InferenceSession(onnx_model_path)
 
 # Input and output folders
-input_folder = f"{HOME}/ip"  # Folder where images are saved by GStreamer
-output_folder = f"{HOME}/op"
+input_folder = HOME+"/ip"  # Folder where images are saved by GStreamer
+output_folder = HOME+"/op"
 os.makedirs(output_folder, exist_ok=True)
 
 # Set up logging

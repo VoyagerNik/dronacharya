@@ -1,4 +1,5 @@
-FROM python:3.8
+FROM python:3.8 
+#nvidia/cuda:11.8.0-runtime-ubuntu18.04
 
 # Set the working directory inside the container; prevents a `cd'
 WORKDIR /app
@@ -11,7 +12,7 @@ RUN apt update && \
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-RUN chmod +x /app/image.sh /app/run_crop_image.sh
+RUN chmod +x /app/run_crop_image.sh
 
 
-CMD ["sh", "-c", "/app/image.sh & /app/run_crop_image.sh"]
+CMD ["sh", "-c", "/app/run_crop_image.sh"]
