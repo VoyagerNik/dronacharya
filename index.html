@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Shipment Container Viewer</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        #content {
+            white-space: pre-wrap;
+            font-family: monospace;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background: #f9f9f9;
+            border-radius: 5px;
+            min-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Live Shipment Container Viewer</h1>
+    <div id="content">Loading...</div>
+    <script>
+        const contentDiv = document.getElementById('content');
+        const eventSource = new EventSource('/updates');
+        eventSource.onmessage = (event) => {
+            contentDiv.textContent = event.data.replace(/\\n/g, '\n');
+        };
+        eventSource.onerror = () => {
+            console.warn("Connection error. Retrying...");
+        };
+    </script>
+</body>
+</html>
