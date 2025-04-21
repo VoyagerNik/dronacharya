@@ -6,7 +6,7 @@ import time
 import logging
   # Import the OCR function
 
-HOME="/app" # /home/user/dproj
+HOME="./" # /home/user/dproj
 # Load the ONNX model
 onnx_model_path = HOME+"/best.onnx"
 session = onnxruntime.InferenceSession(onnx_model_path)
@@ -121,8 +121,7 @@ def main_loop():
                 processed_images.add(image_file)
 
                 # Wait for the output to be written before processing the next image
-                time.sleep(2)  # Adjust the delay as needed
-        i+=1
+                time.sleep(2)  # Adjust the delay as needed        i+=1
         # Sleep for a short time before checking for new images again
         time.sleep(1)
 

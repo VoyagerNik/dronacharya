@@ -1,0 +1,31 @@
+2025-04-18 12:13:19,960 - INFO - Waiting for GStreamer pipeline to initialize...
+2025-04-18 12:13:24,972 - INFO - Processing image: .//ip2/image155.jpg
+2025-04-18 12:13:25,974 - INFO - Processing image: .//ip2/image155.jpg
+2025-04-18 12:13:26,553 - WARNING - No valid container ID detected.
+2025-04-18 12:13:28,558 - INFO - Processing image: .//ip2/image156.jpg
+2025-04-18 12:13:29,561 - INFO - Processing image: .//ip2/image156.jpg
+2025-04-18 12:13:30,012 - WARNING - No valid container ID detected.
+2025-04-18 12:13:32,018 - INFO - Processing image: .//ip2/image157.jpg
+2025-04-18 12:13:33,022 - INFO - Processing image: .//ip2/image157.jpg
+2025-04-18 12:13:33,523 - WARNING - No valid container ID detected.
+2025-04-18 12:13:35,530 - INFO - Processing image: .//ip2/image158.jpg
+2025-04-18 12:13:36,533 - INFO - Processing image: .//ip2/image158.jpg
+2025-04-18 12:13:37,108 - WARNING - No valid container ID detected.
+2025-04-18 12:13:39,112 - INFO - Processing image: .//ip2/image159.jpg
+2025-04-18 12:13:40,114 - INFO - Processing image: .//ip2/image159.jpg
+2025-04-18 12:13:40,636 - WARNING - No valid container ID detected.
+2025-04-18 12:13:42,642 - INFO - Processing image: .//ip2/image80.jpg
+2025-04-18 12:13:43,644 - INFO - Processing image: .//ip2/image80.jpg
+2025-04-18 12:13:44,095 - WARNING - No valid container ID detected.
+2025-04-18 12:13:46,099 - INFO - Processing image: .//ip2/image81.jpg
+2025-04-18 12:13:47,103 - INFO - Processing image: .//ip2/image81.jpg
+2025-04-18 12:13:47,604 - WARNING - No valid container ID detected.
+2025-04-18 12:13:49,608 - INFO - Processing image: .//ip2/image82.jpg
+2025-04-18 12:13:50,610 - INFO - Processing image: .//ip2/image82.jpg
+2025-04-18 12:13:51,053 - WARNING - No valid container ID detected.
+2025-04-18 12:13:53,057 - INFO - Processing image: .//ip2/image83.jpg
+2025-04-18 12:13:54,059 - INFO - Processing image: .//ip2/image83.jpg
+2025-04-18 12:13:54,563 - WARNING - No valid container ID detected.
+2025-04-18 12:13:56,567 - INFO - Processing image: .//ip2/image84.jpg
+2025-04-18 12:13:57,569 - INFO - Processing image: .//ip2/image84.jpg
+2025-04-18 12:13:58,012 - WARNING - No valid container ID detected.
