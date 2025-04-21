@@ -100,7 +100,7 @@ def main_loop():
 
     # Wait for the GStreamer pipeline to initialize
     logging.info("Waiting for GStreamer pipeline to initialize...")
-    time.sleep(5)  # Adjust the delay as needed
+    #time.sleep(5)  # Adjust the delay as needed
     while True:
         # List all files in the input folder
         image_files = [f for f in os.listdir(input_folder) if f.endswith(".jpg")]
@@ -112,7 +112,7 @@ def main_loop():
                 logging.info(f"Processing image: {image_path}")
 
                 # Wait for the image to be fully written (optional)
-                time.sleep(1)  # Adjust the delay as needed
+                #time.sleep(1)  # Adjust the delay as needed
 
                 # Process the image
                 process_image(image_path)
@@ -121,9 +121,9 @@ def main_loop():
                 processed_images.add(image_file)
 
                 # Wait for the output to be written before processing the next image
-                time.sleep(2)  # Adjust the delay as needed        i+=1
+                #time.sleep(2)  # Adjust the delay as needed        i+=1
         # Sleep for a short time before checking for new images again
-        time.sleep(1)
+        #time.sleep(1)
 
 if __name__ == "__main__":
     main_loop()
